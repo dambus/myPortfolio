@@ -35,7 +35,7 @@ h6 {
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
-  
+
 }
 
 #header .profile img {
@@ -247,6 +247,19 @@ h6 {
 }
 
 /* SECTIONS GENERAL */
+.aboutpic {
+  height: 400px;
+
+}
+
+#about .content h3 span {
+  color: orange;
+  border: 1px solid orange;
+  padding:0 3px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -319,6 +332,7 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Facts
