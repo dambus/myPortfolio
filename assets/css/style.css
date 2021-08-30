@@ -236,20 +236,21 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 36px;
+    line-height: 32px;
   }
   #hero h2 {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 30px;
   }
+  #hero p {
+  font-size: 18px;
+}
 }
 
 /* SECTIONS GENERAL */
-.aboutpic {
-  height: 400px;
-}
+
 
 
 #about .content h3 span {
@@ -263,6 +264,11 @@ h6 {
 @media (max-width: 768px) {
   #about .content h3 span {
     font-size: 10px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  text-align: center;
 
   }
 }
@@ -305,9 +311,20 @@ section {
 }
 
 /* ABOUT SECTION */
-.aboutProfilePic {
-  width: 75%;
+.aboutpic {
+  width: 100%;
 }
+
+@media (max-width: 768px) {
+  .aboutpic {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 25px;
+  }
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
