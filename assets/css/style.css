@@ -35,7 +35,6 @@ h6 {
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
-
 }
 
 #header .profile img {
@@ -95,6 +94,7 @@ h6 {
   #header {
     left: -300px;
   }
+
   #main {
     margin-left: 0;
   }
@@ -111,7 +111,7 @@ h6 {
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
 }
@@ -134,14 +134,14 @@ h6 {
 
 .nav-menu a:hover,
 .nav-menu .active,
-.nav-menu li:hover > a {
+.nav-menu li:hover>a {
   text-decoration: none;
   color: #fff;
 }
 
 .nav-menu a:hover i,
 .nav-menu .active i,
-.nav-menu li:hover > a i {
+.nav-menu li:hover>a i {
   color: #149ddd;
 }
 
@@ -239,24 +239,23 @@ h6 {
     font-size: 36px;
     line-height: 32px;
   }
+
   #hero h2 {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 30px;
   }
+
   #hero p {
-  font-size: 18px;
-}
+    font-size: 18px;
+  }
 }
 
 /* SECTIONS GENERAL */
-
-
-
 #about .content h3 span {
   color: orange;
   border: 1px solid orange;
-  padding:0 3px;
+  padding: 0 3px;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
 }
@@ -265,11 +264,10 @@ h6 {
   #about .content h3 span {
     font-size: 10px;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  text-align: center;
-
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    text-align: center;
   }
 }
 
@@ -318,10 +316,10 @@ section {
 @media (max-width: 768px) {
   .aboutpic {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
   }
 }
 
@@ -356,7 +354,6 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
 
 /*--------------------------------------------------------------
 # Facts
@@ -591,7 +588,7 @@ section {
   background: rgba(20, 157, 221, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a + a {
+.portfolio .portfolio-wrap .portfolio-links a+a {
   border-left: 1px solid #37b3ed;
 }
 
@@ -624,10 +621,7 @@ section {
   position: relative;
 }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -635,10 +629,7 @@ section {
   border: 1px solid #149ddd;
 }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
 
@@ -661,7 +652,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
@@ -927,7 +918,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -1000,6 +991,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1009,6 +1001,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1036,11 +1029,11 @@ section {
   font-size: 15px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #0e2442;
@@ -1051,9 +1044,11 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
+
   .breadcrumbs ol {
     display: block;
   }
+
   .breadcrumbs ol li {
     display: inline-block;
   }
