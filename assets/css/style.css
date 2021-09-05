@@ -310,7 +310,9 @@ section {
 
 /* ABOUT SECTION */
 .aboutpic {
-  width: 100%;
+  display: block;
+  margin: auto;
+  width: 300px;
 }
 
 @media (max-width: 768px) {
@@ -682,8 +684,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 54px;
-  height: 54px;
+  width: 36px;
+  height: 36px;
   background: #149ddd;
   border-radius: 50%;
   transition: 0.5s;
@@ -723,6 +725,20 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+}
+
+.topcell {
+    margin-top:50px;
+}
+
+@media (max-width: 767px) {
+    .services .topcell {
+        margin-top:50px;
+    }
+}
+
+.bottomspace {
+  padding-bottom: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -1119,4 +1135,8 @@ section {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+.testview {
+  border: 1px solid red;
 }
