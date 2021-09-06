@@ -506,6 +506,25 @@ section {
   border: 2px solid #1f5297;
 }
 
+.resume .titleH2 {
+  display: inline-block;
+  margin-right: 14px;
+}
+
+.colloredButton {
+  display: inline-block;;
+  margin: 0;
+  vertical-align: top;
+  font-size: 12px;
+}
+
+
+.inlineForm {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -684,8 +703,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   background: #149ddd;
   border-radius: 50%;
   transition: 0.5s;
@@ -694,7 +713,7 @@ section {
 
 .services .icon i {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 0;
 }
 
@@ -1002,6 +1021,11 @@ section {
 .contact .php-email-form button[type="submit"]:hover {
   background: #37b3ed;
 }
+
+.m10 {
+  margin-right: 10px !important;
+}
+
 
 @-webkit-keyframes animate-loading {
   0% {
