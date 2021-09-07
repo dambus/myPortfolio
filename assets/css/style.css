@@ -512,12 +512,12 @@ section {
 }
 
 .colloredButton {
-  display: inline-block;;
+  display: inline-block;
+  ;
   margin: 0;
   vertical-align: top;
   font-size: 12px;
 }
-
 
 .inlineForm {
   display: inline-block;
@@ -747,13 +747,13 @@ section {
 }
 
 .topcell {
-    margin-top:50px;
+  margin-top: 50px;
 }
 
 @media (max-width: 767px) {
-    .services .topcell {
-        margin-top:50px;
-    }
+  .services .topcell {
+    margin-top: 50px;
+  }
 }
 
 .bottomspace {
@@ -1025,7 +1025,6 @@ section {
 .m10 {
   margin-right: 10px !important;
 }
-
 
 @-webkit-keyframes animate-loading {
   0% {
